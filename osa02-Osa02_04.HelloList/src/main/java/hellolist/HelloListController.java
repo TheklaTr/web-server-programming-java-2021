@@ -11,24 +11,26 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class HelloListController {
 
-    private List<String> list;
+  private List<String> list;
 
-    public HelloListController() {
-        this.list = new ArrayList<>();
-        this.list.add("Hello world!");
-        this.list.add("+[-[<<[+[--->]-[<<<]]]>>>-]>-.---.>..>.<<<<-.<+.>>>>>.>.<<.<-.");
-    }
+  public HelloListController() {
+    this.list = new ArrayList<>();
+    this.list.add("Hello world!");
+    this.list.add(
+        "+[-[<<[+[--->]-[<<<]]]>>>-]>-.---.>..>.<<<<-.<+.>>>>>.>.<<.<-."
+      );
+  }
 
-    @GetMapping("/")
-    public String home(Model model) {
-        return "index";
-    }
+  @GetMapping("/")
+  public String home(Model model) {
+    model.addAttribute("list", this.list);
+    return "index";
+  }
 
-    // Älä koske tähän metodiin -- tutustumme tiedon lisäämiseen hieman myöhemmin.
-    @PostMapping("/")
-    public String addContent(@RequestParam String content) {
-        this.list.add(content.trim());
-        return "redirect:/";
-    }
-
+  // Älä koske tähän metodiin -- tutustumme tiedon lisäämiseen hieman myöhemmin.
+  @PostMapping("/")
+  public String addContent(@RequestParam String content) {
+    this.list.add(content.trim());
+    return "redirect:/";
+  }
 }

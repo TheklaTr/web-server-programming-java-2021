@@ -31,4 +31,13 @@ public class HelloPathVariablesController {
         return "index";
     }
 
+    @GetMapping("/{hat}")
+    public String hat(@PathVariable String hat, Model model) {
+        model.addAttribute("item", this.items.get(hat));
+        return "index";
+    }
+
+
+
+
 }

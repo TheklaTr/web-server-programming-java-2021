@@ -11,10 +11,21 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class PostRedirectGetController {
 
-    private List<String> list;
+  private List<String> list;
 
-    public PostRedirectGetController() {
-        this.list = new ArrayList<>();
-    }
+  public PostRedirectGetController() {
+    this.list = new ArrayList<>();
+  }
 
+  @GetMapping("/")
+  public String get(Model model) {
+    model.addAttribute("list", this.list);
+    return "index";
+  }
+
+  @PostMapping("/")
+  public String add(@RequestParam String name) {
+    this.list.add(name);
+    return "redirect:/";
+  }
 }

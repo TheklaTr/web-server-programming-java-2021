@@ -8,4 +8,14 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class HelloModelController {
 
+  @RequestMapping("/")
+  public String hello(
+    @RequestParam String person,
+    @RequestParam String title,
+    Model model
+  ) {
+    model.addAttribute("title", title);
+    model.addAttribute("person", person);
+    return "index";
+  }
 }

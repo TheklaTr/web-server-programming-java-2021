@@ -11,20 +11,25 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class HelloObjectsController {
 
-    private List<Item> items;
+  private List<Item> items;
 
-    public HelloObjectsController() {
-        this.items = new ArrayList<>();
-        this.items.add(new Item("Wizard hat", "pointy"));
-    }
+  public HelloObjectsController() {
+    this.items = new ArrayList<>();
+    this.items.add(new Item("Wizard hat", "pointy"));
+    this.items.add(new Item("Party hat", "groovy"));
+  }
 
-    // Tee tänne juuripolkuun tulevan GET-tyyppisen pyynnön käsittelevä metodi
+  // Make here a method that handles a GET-type request coming to the root path
+  @GetMapping("/")
+  public String index(Model model) {
+    model.addAttribute("list", items);
+    return "index";
+  }
 
-    // Älä koske tähän metodiin -- tutustumme tiedon lisäämiseen hieman myöhemmin.
-    @PostMapping("/")
-    public String post(@RequestParam String name, @RequestParam String type) {
-        this.items.add(new Item(name.trim(), type.trim()));
-        return "redirect:/";
-    }
-
+  // Älä koske tähän metodiin -- tutustumme tiedon lisäämiseen hieman myöhemmin.
+  @PostMapping("/")
+  public String post(@RequestParam String name, @RequestParam String type) {
+    this.items.add(new Item(name.trim(), type.trim()));
+    return "redirect:/";
+  }
 }

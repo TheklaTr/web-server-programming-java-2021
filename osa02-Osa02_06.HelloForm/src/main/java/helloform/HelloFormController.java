@@ -9,18 +9,18 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class HelloFormController {
 
-    private String content = "Hello world!";
+  private String content = "Hello world!";
 
-    @GetMapping("/")
-    public String get(Model model) {
-        model.addAttribute("content", content);
-        return "index";
-    }
+  @GetMapping("/")
+  public String get(Model model) {
+    model.addAttribute("content", content);
+    return "index";
+  }
 
-    @PostMapping("/")
-    public String post(@RequestParam String content) {
-        this.content = content;
-        // opimme tämän "redirect:/"-loitsun merkityksen ihan kohta!
-        return "redirect:/";
-    }
+  @PostMapping("/")
+  public String post(@RequestParam String content) {
+    this.content = content;
+    // opimme tämän "redirect:/"-loitsun merkityksen ihan kohta!
+    return "redirect:/";
+  }
 }

@@ -1,0 +1,490 @@
+21:27:37.392 [TestRunner thread] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class hellopathvariables.HelloPathVariablesTest]
+21:27:37.399 [TestRunner thread] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+21:27:37.410 [TestRunner thread] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+21:27:37.448 [TestRunner thread] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [hellopathvariables.HelloPathVariablesTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+21:27:37.462 [TestRunner thread] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [hellopathvariables.HelloPathVariablesTest], using SpringBootContextLoader
+21:27:37.466 [TestRunner thread] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [hellopathvariables.HelloPathVariablesTest]: class path resource [hellopathvariables/HelloPathVariablesTest-context.xml] does not exist
+21:27:37.466 [TestRunner thread] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [hellopathvariables.HelloPathVariablesTest]: class path resource [hellopathvariables/HelloPathVariablesTestContext.groovy] does not exist
+21:27:37.466 [TestRunner thread] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [hellopathvariables.HelloPathVariablesTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+21:27:37.468 [TestRunner thread] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [hellopathvariables.HelloPathVariablesTest]: HelloPathVariablesTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:27:37.522 [TestRunner thread] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [hellopathvariables.HelloPathVariablesTest]
+21:27:37.580 [TestRunner thread] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [E:\Practices\tmcdata\mooc-wepa-itseopiskelu\osa02-Osa02_10.HelloPathVariables\target\classes\hellopathvariables\HelloPathVariablesApplication.class]
+21:27:37.586 [TestRunner thread] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration hellopathvariables.HelloPathVariablesApplication for test class hellopathvariables.HelloPathVariablesTest
+21:27:37.669 [TestRunner thread] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [hellopathvariables.HelloPathVariablesTest]: using defaults.
+21:27:37.669 [TestRunner thread] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+21:27:37.678 [TestRunner thread] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+21:27:37.678 [TestRunner thread] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+21:27:37.678 [TestRunner thread] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4ef1c58e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7db0c9f2, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@63e62341, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@775ac448, org.springframework.test.context.support.DirtiesContextTestExecutionListener@37c7a298, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4c4302cb, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1eeddc29, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3f342338, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@35ed8524, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@61ec9c08]
+21:27:37.681 [TestRunner thread] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hellopathvariables.HelloPathVariablesTest]
+21:27:37.681 [TestRunner thread] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hellopathvariables.HelloPathVariablesTest]
+21:27:37.682 [TestRunner thread] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hellopathvariables.HelloPathVariablesTest]
+21:27:37.682 [TestRunner thread] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hellopathvariables.HelloPathVariablesTest]
+21:27:37.686 [TestRunner thread] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@1506bb56 testClass = HelloPathVariablesTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@3f9bc46b testClass = HelloPathVariablesTest, locations = '{}', classes = '{class hellopathvariables.HelloPathVariablesApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@23ed71e4 key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@111947e0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@32e0d8a0, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@39fcb192, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@e7e8512, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1872d07], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+21:27:37.686 [TestRunner thread] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hellopathvariables.HelloPathVariablesTest]
+21:27:37.686 [TestRunner thread] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hellopathvariables.HelloPathVariablesTest]
+21:27:37.703 [TestRunner thread] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.3.RELEASE)
+
+2022-08-11 21:27:37.999  INFO 24064 --- [stRunner thread] h.HelloPathVariablesTest                 : Starting HelloPathVariablesTest on DESKTOP-0HSNO64 with PID 24064 (started by thekla in e:\Practices\tmcdata\mooc-wepa-itseopiskelu\osa02-Osa02_10.HelloPathVariables)
+2022-08-11 21:27:38.000  INFO 24064 --- [stRunner thread] h.HelloPathVariablesTest                 : No active profile set, falling back to default profiles: default
+2022-08-11 21:27:39.444  INFO 24064 --- [stRunner thread] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-11 21:27:39.620  INFO 24064 --- [stRunner thread] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-08-11 21:27:39.764  INFO 24064 --- [stRunner thread] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-08-11 21:27:39.764  INFO 24064 --- [stRunner thread] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-08-11 21:27:39.774  INFO 24064 --- [stRunner thread] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 10 ms
+2022-08-11 21:27:39.806  INFO 24064 --- [stRunner thread] h.HelloPathVariablesTest                 : Started HelloPathVariablesTest in 2.093 seconds (JVM running for 2.761)
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = hellopathvariables.HelloPathVariablesController
+           Method = public java.lang.String hellopathvariables.HelloPathVariablesController.home(org.springframework.ui.Model)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = index
+             View = null
+        Attribute = item
+            value = Item(identifier=debafba2-620c-4796-9bf6-b541d8a9d830, name=Hat, type=default)
+           errors = []
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Language:"en", Content-Type:"text/html;charset=UTF-8"]
+     Content type = text/html;charset=UTF-8
+             Body = <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Hat</title>
+    </head>
+
+    <body>
+        <h3>Hat</h3>
+        <h3>default</h3>
+    </body>
+</html>
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2022-08-11 21:27:40.476  INFO 24064 --- [stRunner thread] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [hellopathvariables.HelloPathVariablesTest], using SpringBootContextLoader
+2022-08-11 21:27:40.476  INFO 24064 --- [stRunner thread] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [hellopathvariables.HelloPathVariablesTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-08-11 21:27:40.476  INFO 24064 --- [stRunner thread] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [hellopathvariables.HelloPathVariablesTest]: HelloPathVariablesTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-08-11 21:27:40.478  INFO 24064 --- [stRunner thread] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration hellopathvariables.HelloPathVariablesApplication for test class hellopathvariables.HelloPathVariablesTest
+2022-08-11 21:27:40.479  INFO 24064 --- [stRunner thread] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2022-08-11 21:27:40.479  INFO 24064 --- [stRunner thread] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1c42f8b2, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@71555d2f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@677bdd61, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@43d36195, org.springframework.test.context.support.DirtiesContextTestExecutionListener@485f8635, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@13381634, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2a9141e7, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@729642e9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@464c0ca0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@15962beb]
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /bicorne
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = hellopathvariables.HelloPathVariablesController
+           Method = public java.lang.String hellopathvariables.HelloPathVariablesController.hat(java.lang.String,org.springframework.ui.Model)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = index
+             View = null
+        Attribute = item
+            value = Item(identifier=4f734093-2ab8-47fb-ab22-6c69ba872edd, name=Bicorne, type=hat)
+           errors = []
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Language:"en", Content-Type:"text/html;charset=UTF-8"]
+     Content type = text/html;charset=UTF-8
+             Body = <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Bicorne</title>
+    </head>
+
+    <body>
+        <h3>Bicorne</h3>
+        <h3>hat</h3>
+    </body>
+</html>
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /default
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = hellopathvariables.HelloPathVariablesController
+           Method = public java.lang.String hellopathvariables.HelloPathVariablesController.hat(java.lang.String,org.springframework.ui.Model)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = index
+             View = null
+        Attribute = item
+            value = Item(identifier=debafba2-620c-4796-9bf6-b541d8a9d830, name=Hat, type=default)
+           errors = []
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Language:"en", Content-Type:"text/html;charset=UTF-8"]
+     Content type = text/html;charset=UTF-8
+             Body = <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Hat</title>
+    </head>
+
+    <body>
+        <h3>Hat</h3>
+        <h3>default</h3>
+    </body>
+</html>
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /montera
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = hellopathvariables.HelloPathVariablesController
+           Method = public java.lang.String hellopathvariables.HelloPathVariablesController.hat(java.lang.String,org.springframework.ui.Model)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = index
+             View = null
+        Attribute = item
+            value = Item(identifier=fb51a9d1-8529-467e-ac18-449bb9ae913d, name=Montera, type=hat)
+           errors = []
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Language:"en", Content-Type:"text/html;charset=UTF-8"]
+     Content type = text/html;charset=UTF-8
+             Body = <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Montera</title>
+    </head>
+
+    <body>
+        <h3>Montera</h3>
+        <h3>hat</h3>
+    </body>
+</html>
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /ascot
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = hellopathvariables.HelloPathVariablesController
+           Method = public java.lang.String hellopathvariables.HelloPathVariablesController.hat(java.lang.String,org.springframework.ui.Model)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = index
+             View = null
+        Attribute = item
+            value = Item(identifier=36c6dd9f-622f-4cc5-9b06-1f30480eb893, name=Ascot cap, type=hat)
+           errors = []
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Language:"en", Content-Type:"text/html;charset=UTF-8"]
+     Content type = text/html;charset=UTF-8
+             Body = <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Ascot cap</title>
+    </head>
+
+    <body>
+        <h3>Ascot cap</h3>
+        <h3>hat</h3>
+    </body>
+</html>
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /busby
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = hellopathvariables.HelloPathVariablesController
+           Method = public java.lang.String hellopathvariables.HelloPathVariablesController.hat(java.lang.String,org.springframework.ui.Model)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = index
+             View = null
+        Attribute = item
+            value = Item(identifier=8c88531c-f199-4c6d-85de-bb519cd1b681, name=Busby, type=hat)
+           errors = []
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Language:"en", Content-Type:"text/html;charset=UTF-8"]
+     Content type = text/html;charset=UTF-8
+             Body = <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Busby</title>
+    </head>
+
+    <body>
+        <h3>Busby</h3>
+        <h3>hat</h3>
+    </body>
+</html>
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /balaclava
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = hellopathvariables.HelloPathVariablesController
+           Method = public java.lang.String hellopathvariables.HelloPathVariablesController.hat(java.lang.String,org.springframework.ui.Model)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = index
+             View = null
+        Attribute = item
+            value = Item(identifier=b0d034e4-911d-4d50-b394-5420b9c4cd78, name=Balaclava, type=hat)
+           errors = []
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Language:"en", Content-Type:"text/html;charset=UTF-8"]
+     Content type = text/html;charset=UTF-8
+             Body = <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Balaclava</title>
+    </head>
+
+    <body>
+        <h3>Balaclava</h3>
+        <h3>hat</h3>
+    </body>
+</html>
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /capotain
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = hellopathvariables.HelloPathVariablesController
+           Method = public java.lang.String hellopathvariables.HelloPathVariablesController.hat(java.lang.String,org.springframework.ui.Model)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = index
+             View = null
+        Attribute = item
+            value = Item(identifier=cb044cc3-d583-4de2-a524-184a1d311ca2, name=Capotain, type=hat)
+           errors = []
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Language:"en", Content-Type:"text/html;charset=UTF-8"]
+     Content type = text/html;charset=UTF-8
+             Body = <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Capotain</title>
+    </head>
+
+    <body>
+        <h3>Capotain</h3>
+        <h3>hat</h3>
+    </body>
+</html>
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /homburg
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = hellopathvariables.HelloPathVariablesController
+           Method = public java.lang.String hellopathvariables.HelloPathVariablesController.hat(java.lang.String,org.springframework.ui.Model)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = index
+             View = null
+        Attribute = item
+            value = Item(identifier=74e5c8b0-9496-4030-a450-0519b070f70b, name=Homburg, type=hat)
+           errors = []
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Language:"en", Content-Type:"text/html;charset=UTF-8"]
+     Content type = text/html;charset=UTF-8
+             Body = <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Homburg</title>
+    </head>
+
+    <body>
+        <h3>Homburg</h3>
+        <h3>hat</h3>
+    </body>
+</html>
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2022-08-11 21:27:40.523  INFO 24064 --- [       Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
